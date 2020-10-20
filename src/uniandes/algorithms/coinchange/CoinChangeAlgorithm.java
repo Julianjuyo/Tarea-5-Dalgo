@@ -15,4 +15,9 @@ public interface CoinChangeAlgorithm {
 	 * @return int [] number of coins to give back
 	 */
 	public int [] calculateOptimalChange(int totalValue, int [] denominations);
+	
+	
+	
+	
+	
 }
