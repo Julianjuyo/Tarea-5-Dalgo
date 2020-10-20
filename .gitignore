@@ -1,3 +1,6 @@
 
 *.class
 .classpath
+.classpath
+.project
+src/uniandes/algorithms/coinchange/ADNAlign.java
