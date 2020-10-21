@@ -7,3 +7,4 @@ src/uniandes/algorithms/coinchange/ADNAlign.java
 *.class
 .project
 .classpath
+*.class
