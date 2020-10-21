@@ -18,9 +18,9 @@ public class RecurrentCoinChangeAlgorithm implements CoinChangeAlgorithm {
 	private int c(int j,int i,int[] d) {
 		if(j==0)
 			return 0;
-		else if(i<0)
+		else if(i==0)
 		{
-			return Integer.MAX_VALUE;
+			return j;
 		}
 		else if(d[i]<=j)
 		{
